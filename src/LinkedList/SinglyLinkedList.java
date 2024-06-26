@@ -111,7 +111,7 @@ public class SinglyLinkedList<T> implements Iterable<T> {
             return false;
         } else if (index == 0){
             this.deleteAtFirst();
-        } else if (index == size){
+        } else if (index == size - 1){
             this.deleteAtLast();
         } else {
             int i = 0;
